@@ -101,7 +101,6 @@ All metadata will be validated upon initialization. Once the target object has b
 import pymmt
 
 #example for Binospec imaging target payload:
-
 payload = {
   'objectid':'TARGETNAME',
   'ra':'12:34:56.78',
@@ -118,7 +117,6 @@ payload = {
 
 
 #example payload for Binospec longslit target payload
-
 payload = {
   'objectid':'Targetname',
   'ra':'12:34:56.78',
@@ -136,8 +134,8 @@ payload = {
   'priority':1,
   'targetofopportunity':1
 }
-#example payload for MMIRS longslit target payload
 
+#example payload for MMIRS longslit target payload
 payload = {
   'objectid': 'AT2021fxy',
   'ra': '13:13:01.560',
